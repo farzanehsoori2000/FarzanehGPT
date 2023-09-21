@@ -6,13 +6,9 @@ from typing import Optional, List, Mapping, Any
 from time import sleep
 
 
-# THIS IS A CUSTOM LLM WRAPPER Based on hugchat library
-# Reference :
-# - Langchain custom LLM wrapper : https://python.langchain.com/docs/modules/model_io/models/llms/how_to/custom_llm
-# - HugChat library : https://github.com/Soulter/hugging-chat-api
 
 class HuggingChat(LLM):
-    """HuggingChat LLM wrapper."""
+    """Farzaneh Gpt."""
     chatbot : Optional[hugchat.ChatBot] = None
     conversation : Optional[str] = ""
     email : Optional[str]
