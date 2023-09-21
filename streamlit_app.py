@@ -112,7 +112,7 @@ with st.sidebar:
                     # Generate empty lists for generated and past.
                     ## generated stores AI generated responses
                     if 'generated' not in st.session_state:
-                        st.session_state['generated'] = ["I'm **IA ITALIA chat**, How may I help you ? "]
+                        st.session_state['generated'] = ["Hi Farzaneh joon I'm **Your personal Ai Assistanet**, How may I help you ? "]
                     ## past stores User's questions
                     if 'past' not in st.session_state:
                         st.session_state['past'] = ['Hi!']
@@ -726,10 +726,10 @@ with st.sidebar:
 
     export_chat()
     add_vertical_space(5)
-    html_chat = '<center><h6>🤗 Support the project with a donation for the development of new features 🤗</h6>'
-    html_chat += '<br><a href="https://rebrand.ly/SupportAUTOGPTfree"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="PayPal donate button" /></a><center><br>'
+    html_chat = '<center><h6>🤗 With best wishes for you. 🤗</h6>'
+  
     st.markdown(html_chat, unsafe_allow_html=True)
-    st.write('Made with ❤️ by [Alessandro CIciarelli](https://intelligenzaartificialeitalia.net)')
+    st.write('Made with ❤️ by [Erf] for his lovely aunt()')
 
 ##### End of sidebar
 
@@ -996,6 +996,6 @@ with response_container:
             
             
     else:
-        st.info("👋 Hey , we are very happy to see you here 🤗")
+        st.info("👋 Hi My Love 🤗")
         st.info("👉 Please Login to continue, click on top left corner to login 🚀")
         st.error("👉 If you are not registered on Hugging Face, please register first and then login 🤗")
